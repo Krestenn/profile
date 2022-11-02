@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+body {
+  background-color: #fdf6e3;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 25px
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 16px
+}
+
+
+a{
+  color: #6B72E1;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:hover{
+  color: lightcoral;
+}
+
+.container{
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.align-beside{
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.btn{
+  font-size: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 5px;
+  background-color: #6A72E1;
+  color: white;
+
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
